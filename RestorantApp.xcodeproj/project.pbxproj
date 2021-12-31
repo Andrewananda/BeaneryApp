@@ -12,6 +12,7 @@
 		580CEC4127746FF00061A6C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 580CEC3F27746FF00061A6C7 /* Main.storyboard */; };
 		580CEC4327746FF50061A6C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 580CEC4227746FF50061A6C7 /* Assets.xcassets */; };
 		580CEC4627746FF50061A6C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 580CEC4427746FF50061A6C7 /* LaunchScreen.storyboard */; };
+		580CEC4F277493BD0061A6C7 /* ExploreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580CEC4E277493BD0061A6C7 /* ExploreViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		580CEC4227746FF50061A6C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		580CEC4527746FF50061A6C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		580CEC4727746FF50061A6C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		580CEC4E277493BD0061A6C7 /* ExploreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		580CEC3827746FF00061A6C7 /* RestorantApp */ = {
 			isa = PBXGroup;
 			children = (
+				580CEC4D2774939F0061A6C7 /* Explore */,
 				580CEC3927746FF00061A6C7 /* AppDelegate.swift */,
 				580CEC3B27746FF00061A6C7 /* SceneDelegate.swift */,
 				580CEC3F27746FF00061A6C7 /* Main.storyboard */,
@@ -62,6 +65,14 @@
 				580CEC4727746FF50061A6C7 /* Info.plist */,
 			);
 			path = RestorantApp;
+			sourceTree = "<group>";
+		};
+		580CEC4D2774939F0061A6C7 /* Explore */ = {
+			isa = PBXGroup;
+			children = (
+				580CEC4E277493BD0061A6C7 /* ExploreViewController.swift */,
+			);
+			path = Explore;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +148,7 @@
 			files = (
 				580CEC3A27746FF00061A6C7 /* AppDelegate.swift in Sources */,
 				580CEC3C27746FF00061A6C7 /* SceneDelegate.swift in Sources */,
+				580CEC4F277493BD0061A6C7 /* ExploreViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
